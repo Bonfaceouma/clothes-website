@@ -1,0 +1,147 @@
+body{
+  background-color: rgba(252, 249, 249, 0.87);
+}
+
+.main-divisio-added-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4em;
+  
+}
+.my-items{
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color:black;
+ 
+}
+.Added-Items{
+  
+
+}
+.image-item{
+  width: 40%;
+  transition:transform 0.3s ease;
+
+  }
+  .image-item:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+     
+  }
+.added-item-division{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px gray solid;
+  justify-content: space-between;
+  margin-top:2em;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.2) ;
+}
+.check-out{
+  list-style: none;
+}
+.button-remove{
+  align-self:center;
+  margin-left: 60px;
+  background-color:blue;
+  color:white;
+  border-radius: 5px;
+  width: 50%;
+  height:40px; 
+  border:1px gray solid;
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.2) ;
+  transition:transform 0.3s ease;
+}
+.button-remove:hover{
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}
+.handle-all-payment-features-division{
+  display: grid;
+  gap: 1em;
+  border:1px rgb(141, 140, 140) solid;
+  padding-left: 10px;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.2) ;
+}
+.item-added{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: brown;
+}
+.Total-number-of-items{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: brown;
+}
+.total-price-division{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: brown;
+  margin-bottom: 10px;
+}
+.price-division{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: brown;
+  
+
+}
+
+.total-purchase-division{
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color:black;
+  
+}
+.payment-image-icon{
+  width: 50%;
+  border-radius: 8px;
+  transition:transform 0.3s ease;
+
+  
+}
+.payment-image-icon:hover{
+  transform: scale(1.5,1.5);
+
+  cursor: pointer;
+ }
+.payment-option-division{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  
+  }
+
+.division-payment-method-head{
+  margin-left: 30px;
+  
+}
+.main-payment-division{
+  margin-top: 30px;
+  border:1px rgb(141, 140, 140) solid; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.2) ;
+}
+.division-payment-method-head{
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color:black;
+  
+}

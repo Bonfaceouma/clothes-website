@@ -1,0 +1,130 @@
+body{
+  background-color: rgba(252, 249, 249, 0.87);
+}
+.division-header-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom:0px;
+  
+}
+.input-search-section{
+   justify-self:stretch;
+   margin-left:18px;
+   height: 30px;
+   width: 100%;
+   padding-left: 15px;
+   border: 1.5px rgb(199, 197, 197) solid; 
+   box-shadow: 0 4px 8px rgba(0,0,0, 0.2) ;
+   text-decoration: none;
+   font-size: 1em;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+
+   
+}
+input:focus{
+  outline:none;
+}
+
+.division-Element-on-the-header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 0px;
+}
+.link-cart{
+  margin-bottom:em;
+}
+.cart-link-image{
+  float:right;
+  width:10%; 
+  border-radius: 8px;
+  
+}
+
+.quantity{
+  float:right;
+}
+.main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:2em;
+  
+  margin-left:3.2em;
+}
+.image-items{
+  /*width: 80px;
+  height: 100px;*/
+   width: 40%;
+   border-radius: 8px;
+   
+ /* height: 220px;*/
+ transition:transform 0.3s ease;
+
+}
+.image-items:hover{
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}
+
+.first-unorderd-cloth-list{
+list-style: none;
+}
+
+.button{
+padding-bottom:5px;
+margin-bottom: 10px;
+margin-left:3em;
+border-radius:5px;
+border: 1.5px rgb(199, 197, 197) solid;
+width: 40%; 
+height:25px;
+color: white;
+background-color: rgb(238, 121, 160);
+transition:transform 0.3s ease;
+box-shadow: 0 4px 8px rgba(0,0,0, 0.2) ;
+
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  
+
+}
+.button:hover{
+       transform: scale(1.1,1.1);
+       cursor: pointer;
+}
+
+.list-clothes-division{
+  
+  display: grid;
+  grid-template-columns:1fr;
+  
+  border: 1.5px rgb(199, 197, 197) solid;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.2) ;
+}
+.product-description{
+  width:100%;
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.clothes-name{
+  width:80%;
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: blue;
+
+}
+
+.price-items{
+  width:80%;
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color:brown;
+
+}
